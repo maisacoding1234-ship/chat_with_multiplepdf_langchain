@@ -1,0 +1,27 @@
+method1
+
+conda create -p venv python=3.10
+
+conda activate ./venv
+
+pip install -r requirements.txt
+
+streamlit run app.py
+
+method2 
+
+1.python -m venv venv
+
+2.venv\Scripts\activate
+
+3.pip install -r requirements.txt
+
+4.pip install langchain-huggingface sentence-transformers
+
+5.pip install langchain-text-splitters
+
+6.pip install openai
+
+
+7.streamlit run app.py
+
